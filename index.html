@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1e1e1e">
+  <title>Schedule</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <div class="container">
+    <div class="header">
+      <div>
+        <h1 id="date"></h1>
+        <div>
+          <p id="month"></p>
+          <p id="year"></p>
+        </div>
+      </div>
+      <div>
+        <h2 id="day"></h2>
+      </div>
+    </div>
+    <div class="days">
+      <div class="day" data-id="minggu">
+        <p>Min</p>
+      </div>
+      <div class="day" data-id="senin">
+        <p>Sen</p>
+      </div>
+      <div class="day" data-id="selasa">
+        <p>Sel</p>
+      </div>
+      <div class="day" data-id="rabu">
+        <p>Rab</p>
+      </div>
+      <div class="day" data-id="kamis">
+        <p>Kam</p>
+      </div>
+      <div class="day" data-id="jumat">
+        <p>Jum</p>
+      </div>
+      <div class="day" data-id="sabtu">
+        <p>Sab</p>
+      </div>
+    </div>
+    <div class="main">
+      
+    </div>
+  </div>
+  
+  <div class="action">
+    <button onclick="schedule.create(prompt('Add Schedule'))">Add Schedule</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
+
