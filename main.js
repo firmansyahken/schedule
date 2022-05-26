@@ -1,6 +1,6 @@
 class Schedule {
   constructor() {
-    this.dataDay = ["minggu", "senin", " selasa", "rabu", "kamis", " jumat", "sabtu"]
+    this.dataDay = ["minggu", "senin", " selasa", "rabu", "kamis", "jumat", "sabtu"]
     this.data = {
       "data": [
         {
